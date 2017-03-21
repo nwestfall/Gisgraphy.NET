@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Gisgraphy.NET</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>nwestfall</authors>
+    <owners>nwestfall</owners>
+    <licenseUrl>https://github.com/nwestfall/Gisgraphy.NET/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/nwestfall/Gisgraphy.NET</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A wrapper for Gisgraphy written in .NET</description>
+    <releaseNotes>Initial Release</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>gisgraphy, maps, pcl, xamarin</tags>
+  </metadata>
+</package>

@@ -1,0 +1,29 @@
+language: csharp
+solution: Gisgraphy.NET.sln
+
+branches:  
+  only:
+    - master
+
+before_install:
+  - sudo apt-get install nunit-console
+  - nuget restore Gisgraphy.NET.sln
+
+install:
+  - sudo apt-get install -y gtk-sharp2
+
+script:
+  - xbuild /p:Configuration=Release Gisgraphy.NET.sln
+
+after_script:
+  - nunit-console Gisgraphy.NET.Test/bin/Release/Gisgraphy.NET.Test.dll
+
+matrix:
+  include:
+    - os: linux # Ubuntu 14.04
+      dist: trusty
+      sudo: required
+      dotnet: 1.0.0-preview2-003121
+      mono: latest
+      env: DOTNETCORE=1
+    - mono: latest

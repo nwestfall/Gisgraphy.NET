@@ -1,0 +1,9 @@
+*.exe
+*.nupkg
+.vs/
+packages/
+*.VC
+Gisgraphy.NET/obj/
+Gisgraphy.NET/bin/
+Gisgraphy.NET.Test/obj/
+Gisgraphy.NET.Test/bin/
