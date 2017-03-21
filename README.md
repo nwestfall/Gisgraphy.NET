@@ -13,6 +13,7 @@ Visit http://www.gisgraphy.com/documentation/api/ for more information on any of
 
 ## Installation
 Available on [nuget](https://www.nuget.org/packages/Gisgraphy.NET/)
+[![NuGet](https://img.shields.io/nuget/v/Gisgraphy.NET.svg?label=NuGet)](https://www.nuget.org/packages/Gisgraphy.NET/)
 ```
 Install-Package Gisgraphy.NET
 ```
